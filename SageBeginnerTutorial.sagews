@@ -18,7 +18,7 @@ The first thing to note is that a worksheet is made up of "cells." These are whe
 ︡1cfd9f95-e591-403e-8d16-fc77aea42917︡{"html":"<center><h1>Sage Beginner's Workshop</h1></center>\n\n<p>\nThis is an introduction to the basic functionality of Sage, with an emphasis on seeing how to handle a worksheet and how to get more detailed help. We will point out a little bit of the power that Sage has hiding in it, but this is <b>not</b> a full-fledged tutorial. Down at the bottom of the page you will find links to some more resources.\n</p>\n\n<hr />\n\nNote that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href=\"http://uni.sagenb.org/home/pub/0/\">available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.\n\n<hr />\n\n<h2>Worksheet Basics</h2>\n\nThe first thing to note is that a worksheet is made up of \"cells.\" These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4."}︡
 ︠8cd31a74-73ca-434a-996d-b2339b8f3160︠
 5+4
-︡d2750b35-fd98-4d38-9fa4-262b63c205ac︡
+︡bb1372c0-3024-471b-b7e1-58629d60fa69︡{"stdout":"9\n"}︡
 ︠df84264c-fbe7-43b9-97a2-45e094363aebi︠
 %html
 <p>
@@ -33,6 +33,7 @@ Try that version now with the simple computation below.
 ︡a76ef72f-2a0d-46ae-a729-6f53cd066b5f︡{"html":"<p>\nNote that the output is marked by a grey parenthesis on the left near the line numbers, and the inputs are separated by thin, grey horizontal rulings. Also, the active cell has a light grey background cell.\n</p>\n<p>\nAnother way to evaluate a cell is to use the \"run\" button at the top of the worksheet. Depending on the width of your display, this button may or may not have the word \"run\" on it. If not, just look for the triangle pointing to the right.\n</p>\n<p>\nTry that version now with the simple computation below.\n<p>"}︡
 ︠640cc705-2c35-4751-804b-62f46a23e2bf︠
 67-5
+︡9adb9684-857d-492a-b8a5-fc2370c298f1︡{"stdout":"62\n"}︡
 ︠aa88d77c-911e-4ea7-9316-8bb11a061c17i︠
 %md
 To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a <i>.sagews</i> file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.
@@ -41,9 +42,12 @@ The other way to make a new cell also works in the middle of a worksheet. Use yo
 
 Try it now. Make a new cell between the ones below.
 ︡2b6c649c-e5b2-4236-b5a4-43e0736d1925︡{"html":"<p>To keep things rolling, you will often need to create new cells. At the end of a worksheet this is done automatically: there is always a set of blank lines at the bottom of a <i>.sagews</i> file. If you somehow manage to evaluate the last line, the page should refresh with a new blank line below the output.</p>\n\n<p>The other way to make a new cell also works in the middle of a worksheet. Use your mouse or trackpad to hover over one of the thin grey horizontal rulings which separate cells. The ruling should get highlighted in blue. At this point, clicking the highlighted ruling will create a new cell directly below that ruling.</p>\n\n<p>Try it now. Make a new cell between the ones below.</p>\n"}︡
-︠22707caf-a45b-4edc-adeb-d3f6ce8ad86c︠
+︠22707caf-a45b-4edc-adeb-d3f6ce8ad86ci︠
 print('Do not touch this cell. Make a new one just below it!')
 ︡54548497-c025-473e-8185-17180a5e7674︡{"stdout":"Do not touch this cell. Make a new one just below it!\n"}︡
+
+︠9cb9bd75-294f-47ce-9082-c3990250b373︠
+
 ︠8dc9d3db-d6a8-4214-ae0a-6cc8429acfd0i︠
 %md
 It is possible to delete input cells, too. To do so, simply empty the cell and press [Backspace] or [Delete] in the active, empty cell. Try deleting a one or two of the cells just below.
@@ -53,8 +57,6 @@ Note that pressing [Backspace] at the beginning of a cell will also remove the h
 ︡f459a899-a7e5-4b5a-8e65-44018d266137︡{"html":"<p>It is possible to delete input cells, too. To do so, simply empty the cell and press [Backspace] or [Delete] in the active, empty cell. Try deleting a one or two of the cells just below.</p>\n\n<p>Note that pressing [Backspace] at the beginning of a cell will also remove the horizontal bar between cells. This joins the two input cells into a single one. That trick might be useful to you at some point.</p>\n"}︡
 ︠47414f7d-e648-49d8-8871-41e21cf62ba8︠
 
-︠5dadf9fc-fe76-4258-88c8-5238c75c5c62︠
-"not empty, empty me first to delete me"
 ︠a2a3a8ce-1593-44fc-a33c-7dbc92f6f6e2︠
 
 ︠a702b99e-7120-425e-8f20-3a3f69d41de9i︠
@@ -74,7 +76,7 @@ After evaluation, the input for a Markdown or html cell will automatically hide.
 ︠fc56969e-9a03-41d4-9ac9-d5e837a8981a︠
 
 ︡f4eae00a-c306-4656-b36f-c8f8fb5b82a8︡
-︠3a466ffb-bc4c-490e-b66b-b1221d79b1f3︠
+︠3a466ffb-bc4c-490e-b66b-b1221d79b1f3i︠
 
 ︡25ee79c9-48bd-4b34-8630-79a02a53c8ef︡
 ︠e37895f9-f78b-4ffe-b32d-be1cbd5e1ef7i︠
@@ -84,8 +86,8 @@ After evaluation, the input for a Markdown or html cell will automatically hide.
 Arithmetic works just as you would expect. The basic operations are + for addition, - for subtraction, * for multiplication, / for division, and ^ for exponentiation. Try that out now. Make some cells and evaluate some basic arithmetic operations.
 ︡72aab168-1823-4f99-b64a-097c6fa2a4aa︡{"html":"<h2>Sage as a Calculator</h2>\n\nArithmetic works just as you would expect. The basic operations are + for addition, - for subtraction, * for multiplication, / for division, and ^ for exponentiation. Try that out now. Make some cells and evaluate some basic arithmetic operations."}︡
 ︠9ee3f618-c282-4bd5-ab19-86d032d4ca49︠
-
-︡13d4a1be-4164-4245-bdaf-8b0f36152cfc︡
+10 ^ 12
+︡ed23db4b-fcca-459a-bca1-74460c818039︡{"stdout":"1000000000000\n"}︡
 ︠35708877-f87d-43ce-b3b1-ae9fc880d419i︠
 %md
 Note that sage tries to remember what kind of object you are working with, so 4/5 is kept as a rational number in that form: 4/5. But if you give it a decimal expression, Sage will use finite precision arithmetic.
@@ -94,7 +96,7 @@ If you want to get a numerical (decimal) approximation to a number that is expre
 ︡a0475942-6d90-40c9-8a3c-7b59716bacef︡{"html":"<p>Note that sage tries to remember what kind of object you are working with, so 4/5 is kept as a rational number in that form: 4/5. But if you give it a decimal expression, Sage will use finite precision arithmetic.</p>\n\n<p>If you want to get a numerical (decimal) approximation to a number that is expressed differently, you can use the .n() method. This method has an option to change how many digits you want displayed. Here are some examples, all in a line. [This demonstrates how to get one compute cell to display several computations&#8212;separate them by semicolons.]</p>\n"}︡
 ︠d5f515c8-2075-4676-aedf-42e7321e7fa8︠
 4/5; .75; (4/5).n(); pi.n(digits=300)
-︡0b37c362-115c-49a5-be38-818f9ad741af︡{"stdout":"4/5\n0.750000000000000\n0.800000000000000\n3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432664821339360726024914127\n"}︡
+︡77250264-9a57-4ffd-b77a-a361b837e845︡{"stdout":"4/5\n0.750000000000000\n0.800000000000000\n3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432664821339360726024914127\n"}︡
 ︠e608b624-5042-4ff7-94c0-c6eb15ef7217i︠
 %md
 Sage can also be used as a *symbolic* calculator. (It is a computer algebra system, after all.) For this to work, you have to tell Sage the names of things it should consider as symbolic variables. After that, you can create an manipulate expressions in a variety of ways.
