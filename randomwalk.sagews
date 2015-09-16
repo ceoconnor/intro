@@ -1,4 +1,4 @@
-︠e080d278-c44f-4e6a-aeba-b841c372a9e1︠
+︠e080d278-c44f-4e6a-aeba-b841c372a9e1is︠
 %md
 # Random Walk #
 ### Cormac O'Connor ###
@@ -8,6 +8,7 @@
 <li>3D Random Walk Plot</li>
 <li>Random Graph</li>
 </0l>
+︡e49fca78-5e46-4ffd-9c7e-c93edb821df9︡{"md":"# Random Walk #\n### Cormac O'Connor ###\n\n<0l>\n<li>2D Random Walk Plot</li>\n<li>3D Random Walk Plot</li>\n<li>Random Graph</li>\n</0l>\n"}︡
 ︠ac2d1bed-9c24-4ebb-9663-358b60d35cc7︠
 
 stats.TimeSeries(1000).randomize('normal').sums().plot()
