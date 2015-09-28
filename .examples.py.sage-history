@@ -1,0 +1,5 @@
+"#!/usr/bin/env python\nversion = 0.1\n\ndef fibiter(n):\n    \"\"\"Fibonacci number iterator\"\"\"\n    old, new = 0, 1\n    for _ in xrange(n):\n        old, new = new, old + new\n        yield(old)"
+{"patch":[[[[0,"eld(old)"],[1,"\n     "]],177,177,8,14]],"time":1442376699494}
+{"patch":[[[[0,"d(old)\n     "],[1,"   "]],179,179,12,15]],"time":1442376697482}
+{"patch":[[[[0,"eld(old)"],[-1,"\n        "]],177,177,17,8]],"time":1442376695477}
+{"patch":[[[[-1,"#!/usr/bin/env python\nversion = 0.1\n\ndef fibiter(n):\n    \"\"\"Fibonacci number iterator\"\"\"\n    old, new = 0, 1\n    for _ in xrange(n):\n        old, new = new, old + new\n        yield(old)"]],0,0,185,0]],"time":1442376687112}
