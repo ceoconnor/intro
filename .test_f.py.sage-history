@@ -1,5 +1,0 @@
-"def f(x):\n    from math import sqrt\n    return sqrt(x**2)\n\ndef f_is_magnitude(x):\n    print \"(x, f(x)) = \", (x, f(x))\n    assert f(x) == abs(x)\n\ndef test_abs_neg_one():\n    f_is_magnitude(-1)\n\ndef test_abs_one():\n    f_is_magnitude(1)\n\ndef test_magnitudes():\n    \"\"\"Test that f is a magnitude\"\"\"\n    from random import uniform\n    for x in (uniform(-1,1) for _ in xrange(100)):\n        yield f_is_magnitude, x"
-{"patch":[[[[0,"sqrt(x**"],[1,"3"],[0,"2)\n\ndef "]],47,47,16,17]],"time":1442982288184}
-{"patch":[[[[0,"x**3"],[-1,"2"],[0,")\n\nd"]],52,52,9,8]],"time":1442982285662}
-{"patch":[[[[0,"(x**"],[-1,"3"],[0,")\n\nd"]],51,51,9,8]],"time":1442981933420}
-{"patch":[[[[0,"sqrt(x**"],[1,"2"],[0,")\n\ndef f"]],47,47,16,17]],"time":1442981931460}
